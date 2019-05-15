@@ -1,0 +1,44 @@
+typography(preset)
+  if preset is standard
+    type copy
+
+    // largest heading intentional reserved
+    // for explicit use
+
+    h1
+      type heading larger
+    h2
+      type heading large
+    h3
+      type heading medium
+    h4
+      type heading small
+    h5
+      type heading smaller
+    h6
+      type heading smallest
+
+    span, em, strong, code
+      display inline
+
+    code
+      type code
+
+    ul > li
+      list-style disc outside
+
+    ol > li
+      list-style decimal outside
+
+    li
+      display list-item
+      margin-left 1em
+
+
+
+elide(-width)
+  display inline-block
+  max-width -width
+  overflow hidden
+  white-space nowrap
+  text-overflow ellipsis

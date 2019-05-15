@@ -1,0 +1,56 @@
+highlight()
+  transition color .15s ease-in
+  &:hover
+  &:focus
+    color (@color + 25%) if @color
+    transition color .15s ease-in
+
+//- don't ifdef b/c otw it won't be defined w/in components
+@keyframes spinner
+  0%
+    transform rotate(0deg)
+  100%
+    transform rotate(360deg)
+
+spinner(-c1, -c2)
+
+  row nowrap
+  justify-content center
+  align-items center
+
+  &::before
+    content ""
+
+    display inline-block
+    position relative
+    height 32px
+    width 32px
+
+    animation 1s linear infinite spinner
+
+    border solid 5px -c1
+    border-bottom-color -c2
+    border-radius 50%
+
+    opacity inherit
+
+
+fade(-h)
+  position relative
+  max-height -h
+  overflow-y hidden
+
+  &::after
+    content ""
+    pointer-events none
+    width 100%
+    height -h
+    position absolute
+    top 0
+    left 0
+    z-index 1
+    background-clip content-box
+    background-image linear-gradient(to bottom,    \
+                      rgba(255,255,255,0),         \
+                      rgba(255,255,255,0) 80%,     \
+                      rgba(255,255,255,1) 100%)
