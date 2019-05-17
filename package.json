@@ -1,5 +1,5 @@
 {
-  "name": "panda-style",
+  "name": "panda-vogue",
   "version": "0.2.0",
   "description": "Stylus mixins for building responsive Web apps/sites.",
   "main": "build/npm/src/index.js",
