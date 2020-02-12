@@ -1,6 +1,6 @@
 {
-  "name": "panda-vogue",
-  "version": "0.2.1",
+  "name": "@dashkite/vogue",
+  "version": "0.0.1",
   "description": "Stylus mixins for building responsive Web apps/sites.",
   "main": "build/npm/src/index.js",
   "repository": {
@@ -12,7 +12,7 @@
     "mixins"
   ],
   "author": "Dan Yoder",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
     "url": "https://github.com/pandastrike/panda-style/issues"
   },
