@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/vogue",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Stylus mixins for building responsive Web apps/sites.",
   "main": "build/npm/src/index.js",
   "repository": {
