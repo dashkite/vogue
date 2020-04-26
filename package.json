@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/pandastrike/panda-style#readme",
   "devDependencies": {
-    "panda-9000": "^4.4.0",
-    "panda-builder": "^3.2.1",
-    "panda-quill": "^3.4.5"
+    "panda-9000": "^5.0.2",
+    "panda-builder": "^4.0.13",
+    "panda-quill": "^5.0.0"
   }
 }
